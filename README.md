@@ -6,12 +6,15 @@ Gliomas are a type of malignant brain tumour originating from glial cells in the
 1. Preprocessing
 2. Feature matrix
 3. Spatial lipid maps
+
+-> MATLAB segmentation
+
 4. Lipid annotation
 5. Lipid abundance
 6. Metadata extractor
 7. Build AnnData
 8. Spateo Analysis
 
-NOTE: This repository also contains the environment yaml used, the link to the raw dataset for users to recreate results, as well a file containing extra scripts for reading outputs from the main pipeline, alongside scripts that can be run to keep as reference guide for running Spateo.
+NOTE: This repository also contains the environment yaml used, the link to the raw dataset for users to recreate results, as well a file containing extra scripts for reading outputs from the main pipeline, alongside scripts that can be run to keep as a reference guide for running Spateo.
 
 #### This pipeline was built on a Linux High Performance Computer (HPC). Resultantly, all scripts are configured appropriately to run on Linux. Users will need to independently customise scripts to the interface they use acoordingly. All customisations would be appreciated and if you wish to share this, please feel free to fork a branch!

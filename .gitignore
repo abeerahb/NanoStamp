@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Conda
+.env
+.venv
+
+# IDE
+.vscode/
+.idea/
+
+# macOS
+.DS_Store
+
+# Large datasets
+data/
+diagnostics/
+figures/
+
+# Outputs
+*.h5ad
+*.ibd
+*.imzML
+*.imzML.gz
+*.npz
+*.npy
+*.csv
+
+# Logs
+*.log
+logs/
+
+# MATLAB temporary
+*.asv
+
+# Jupyter
+.ipynb_checkpoints/
+resources/structures.sdf

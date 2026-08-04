@@ -10,7 +10,7 @@ NanoStamp was developed using:
 
 ## 2. Clone Repository
 
-```text
+```bash
 git clone https://github.com/abeerahb/NanoStamp
 
 cd NanoStamp
@@ -20,17 +20,17 @@ cd NanoStamp
 
 Using conda:
 
-```text
+```bash
 conda env create -f nanostamp.yml
 ```
 
 Activate:
-```text
+```bash
 conda activate nanostamp
 ```
 
 Check installation:
-```text
+```bash
 python --version
 
 pip list
@@ -39,25 +39,25 @@ pip list
 ## 4. Configure NanoStamp
 
 Before running the pipeline, users must edit the script:
-```text
+```python
 config.py
 ```
 This file controls:
 ### Project directory
-```text
+```python
 DATASET_PATH = Path(
     "/scratch/prj/crb_nanostamp/abeerah_lipidomics/NanoStamp/data"
 )
 ```
 
 ### Input/output locations
-```text
+```python
 RAW_DATA = DATASET_PATH / "raw"
 ```
 
 ## 5. Dataset organisation
 User data should include the following files in the below format:
-```text
+```bash
 data/
   raw/
     DATASET_ID (e.g. B1_T0)/
@@ -67,7 +67,7 @@ data/
 
 ## 6. Pipeline Execution
 Run sequentially:
-```text
+```bash
 01_preprocessing.py
 02_feature_matrix.py
 03_spatial_lipid_maps
@@ -81,7 +81,7 @@ MATLAB segmentation
 
 ## 7. Pipeline Output
 Explain outputs:
-```text
+```bash
 outputs/
 
 processed/
@@ -105,12 +105,12 @@ spateo/
 ## Troubleshooting
 
 #### Missing Python packages e.g.
-```text
+```bash
 ModuleNotFoundError
 ```
 
 Please use the commands below:
-```text
+```bash
 conda activate nanostamp
 
 pip install -r requirements.txt

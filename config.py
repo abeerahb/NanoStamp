@@ -5,7 +5,7 @@ from pathlib import Path
 # =======================
 
 DATASET_PATH = Path(
-    "/scratch/prj/crb_nanostamp/abeerah_lipidomics/NanoStamp/data"
+    "<DATASET PATH SHOULD BE INSERTED HERE>/NanoStamp/data"
 )
 
 RAW_DATA = DATASET_PATH / "raw"

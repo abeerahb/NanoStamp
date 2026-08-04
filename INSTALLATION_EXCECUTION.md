@@ -102,3 +102,22 @@ anndata/
 spateo/
   aligned spatial models
 ```
+## Troubleshooting
+
+#### Missing Python packages e.g.
+```text
+ModuleNotFoundError
+```
+
+Please use the commands below:
+```text
+conda activate nanostamp
+
+pip install -r requirements.txt
+```
+
+#### Path errors
+Check:
+```text
+config.py
+```
